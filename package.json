@@ -7,6 +7,8 @@
     "build": "webpack --mode production",
     "build-dev": "webpack --mode none",
     "start:dev": "webpack serve --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx || (exit 0)"
   },
   "author": "qw",
