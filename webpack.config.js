@@ -23,7 +23,7 @@ module.exports = {
 	},
 	output: {
 		filename: 'app.js',
-		path: path.resolve(__dirname, 'docs')
+		path: path.resolve(__dirname, 'dist')
 	},
 	devtool: "source-map",
 	plugins: [
