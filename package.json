@@ -2,6 +2,11 @@
   "name": "bason-stacker",
   "version": "0.0.1",
   "description": "Coin stacking game",
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/qwang06/bason-stacker.git"
+  },
+  "homepage": "https://qwang06.github.io/bason-stacker/",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
