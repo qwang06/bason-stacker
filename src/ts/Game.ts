@@ -11,7 +11,7 @@ import GameOver from "./Scenes/GameOver";
 
 const gameConfig: Phaser.Types.Core.GameConfig = {
 	width: 375,
-	height: 600,
+	height: 667,
 	type: Phaser.AUTO,
 	parent: "content",
 	title: "Bason Stacker",
@@ -23,6 +23,10 @@ const gameConfig: Phaser.Types.Core.GameConfig = {
 	},
 	render: {
 		pixelArt: false,
+	},
+	scale: {
+		mode: Phaser.Scale.FIT,
+		autoCenter: Phaser.Scale.CENTER_BOTH,
 	},
 };
 
